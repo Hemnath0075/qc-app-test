@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+
+.homepages{
+  display: flex;
+  flex-direction: row;
+}
+
+input:focus{
+  outline: none !important;
+}
+
+.heroimage{
+  box-shadow: -12px 12px 94px 0px #0000001A;
+  
+}
+
+.hidescrollbar::-webkit-scrollbar {
+  display: none !important;
+}
+
+.ant-table-body::-webkit-scrollbar{
+  display: none !important;
+}
+
+.download_btn{
+  background-color: #1016D1 !important;
+}
+
+.ant-picker-input > input{
+  color: black !important;
+}
+
+.active{
+  background-color: #dbdbdb !important;
+  color: black;
+  fill: black !important;
+  border-color: black;
+}
+
+.create-qc-menu{
+  background-color: #1F36C7 !important;
+  color: #ffffff;
+  fill: white !important;
+  
+}
+
+.not-active{
+  background-color: #EEF2F6 !important;
+  color: black;
+  fill: black !important;
+}
+
+.table-row-light {
+  background-color: #ffffff;
+  /* color: white; */
+  font-size: 1rem;
+  color: rgb(191, 191, 191) !important;
+  border-top: none !important;
+  border-bottom:none !important;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.table-row-dark {
+  background-color: #F8FAFC;
+  /* color: white;  */
+  color: rgb(191, 191, 191) !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.highlight-bottom-border > td {
+  border-bottom:none !important;
+}
+
+.highlight-top-border > td {
+  border-top: none !important;
+  border-bottom: none !important
+}   
+
+.ant-table-thead .ant-table-cell {
+  background-color: #ffffff !important;
+  border-bottom: 2px solid #EEF2F6  !important;
+  color: #000000 !important;
+  font-size: 1rem !important;
+  /* border: none !important; */
+}
+
+.compare-table .ant-table-cell{
+  padding: 20px 0px !important;
+
+}
+.ant-table-cell{
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  color: black !important;
+  padding: 25px 0px !important;
+  text-align: center !important;
+}
+
+.spinning_indicator{
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  z-index: 10;
+  background-color: #ffffff;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.css-13cymwt-control{
+  padding: 5px !important;
+  font-size: 1rem !important;
+  border-color: hsl(0, 0%, 80%) !important;
+  box-shadow: 0 0 0 1px #9AA4B2 !important;
+  border-radius: 10px !important;
+}
+
+.css-t3ipsp-control{
+  padding: 5px !important;
+  font-size: 1rem !important;
+  border-color: hsl(0, 0%, 80%) !important;
+  box-shadow: 0 0 0 1px #9AA4B2
+  !important;
+  border-radius: 10px !important;
+}
+
+.css-1086bdv-MuiPaper-root-MuiAccordion-root{
+  border: 2px solid #CDD5DF  !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+}
+
+.css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root{
+  padding: 10px !important;
+  background: #F8FAFC !important;
+  border-radius: 10px !important;
+}
+
+.value-table-row-light{
+  background-color: #090E14;
+  /* color: white; */
+  font-size: 1rem;
+  border-bottom: 1px solid #2F3339;
+  color: rgb(191, 191, 191) !important;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* .custom-antd-modal .ant-modal-content{
+  width: 60vw !important;
+} */
+
+.ant-modal{
+  display: flex !important;
+  width: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  top: 50px !important;
+}
+
+.spinning_indicator{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: #ffffff;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.css-1jqq78o-placeholder{
+  color: black !important;
+}
+
+.congrats{
+  width: 80% !important;
+}
+
+.react-card-flip{
+  width: 100%;
+  display: flex ;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-progress-outer{
+  height: 100% !important;
+}
+
+.ant-progress-inner{
+  height: 100% !important;
+  border-radius: 10px !important;
+}
+
+.ant-progress-bg{
+  height: 100% !important; 
+  border-radius: 10px !important;
+}
+
+.css-qbdosj-Input {
+  display: none !important;
+}
+
+.css-19bb58m{
+  display: none !important;
+}

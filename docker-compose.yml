@@ -1,0 +1,9 @@
+version: '1.0'
+
+services:
+  devmode:
+      build:
+          context: ./
+          dockerfile: Dockerfile
+      ports:
+        - 80:80
